@@ -24,12 +24,7 @@ export const BANKS_INFO: BankInfo[] = [
         title: { fa: "بانک حکمت ایرانیان", en: "Hekmat Iranian Bank" },
         prefix: ["636949"],
     },
-    {
-        logo: "Bank-Markazi",
-        SHEBA_prefix: "010",
-        title: { fa: "بانک مرکزی", en: "Markazi Bank" },
-        prefix: ["636949"],
-    },
+
     {
         logo: "Dey",
         SHEBA_prefix: "066",
@@ -91,6 +86,13 @@ export const BANKS_INFO: BankInfo[] = [
         prefix: ["603799"],
     },
     {
+        title: { fa: "بانک پاسارگاد", en: "Pasargad Bank" },
+        prefix: ["639347", "502229"],
+        logo: "Pasargad",
+
+        SHEBA_prefix: "057",
+    },
+    {
         logo: "Parsian",
         SHEBA_prefix: "054",
         title: { fa: "بانک پارسیان", en: "Parsian Bank" },
@@ -140,28 +142,22 @@ export const BANKS_INFO: BankInfo[] = [
         SHEBA_prefix: "061",
     },
     {
-        title: { fa: "بلو بانک", en: "Bank Blu" },
+        title: { fa: "بلو بانک", en: "Blu Bank" },
         prefix: ["636949"],
         logo: "Blu",
 
         SHEBA_prefix: "010",
     },
-    {
-        title: { fa: "بانک حکمت ایرانیان", en: "Bank Hekmat" },
-        prefix: ["636949"],
-        logo: "Bank-Hekmat",
 
-        SHEBA_prefix: "065",
-    },
     {
         title: { fa: "بانک مرکزی", en: "Bank Markazi" },
-        prefix: [],
+        prefix: ["636797"],
         logo: "Bank-Markazi",
 
         SHEBA_prefix: "010",
     },
     {
-        title: { fa: "خاورمیانه", en: "Khavar Mianeh" },
+        title: { fa: "خاورمیانه", en: "Middle East Bank" },
         prefix: ["585947"],
         logo: "Khavar-Mianeh",
 
@@ -175,21 +171,21 @@ export const BANKS_INFO: BankInfo[] = [
         SHEBA_prefix: "073",
     },
     {
-        title: { fa: "قرض الحسنه مهر ایران", en: "Mehr Iran" },
+        title: { fa: "قرض الحسنه مهر ایران", en: "Mehr Iran Bank" },
         prefix: ["606373"],
         logo: "Mehr-Iran",
 
         SHEBA_prefix: "090",
     },
     {
-        title: { fa: "بانک مهر اقتصاد", en: "Mehr Eghtesad" },
+        title: { fa: "بانک مهر اقتصاد", en: "Mehr Eghtesad Bank" },
         prefix: ["639370"],
         logo: "Mehr-Eghtesad",
 
         SHEBA_prefix: "079",
     },
     {
-        title: { fa: "سامان", en: "Samen" },
+        title: { fa: "موسسه اعتباری ثامن", en: "Samen" },
         prefix: ["621986"],
         logo: "Samen",
 
@@ -217,13 +213,6 @@ export const BANKS_INFO: BankInfo[] = [
         SHEBA_prefix: "059",
     },
     {
-        title: { fa: "توسعه", en: "Tose'e" },
-        prefix: ["628157"],
-        logo: "Tosee",
-
-        SHEBA_prefix: "051",
-    },
-    {
         title: { fa: "توسعه صادرات", en: "Tose'e Saderat" },
         prefix: ["627648", "207177"],
         logo: "Tosee-Saderat",
@@ -237,11 +226,12 @@ export const BANKS_INFO: BankInfo[] = [
 
         SHEBA_prefix: "022",
     },
-    {
-        title: { fa: "بانک پاسارگاد", en: "Pasargad Bank" },
-        prefix: ["639347", "502229"],
-        logo: "Pasargad",
 
-        SHEBA_prefix: "057",
+    {
+        title: { fa: "بانک تجارت", en: "Tejarat Bank" },
+        prefix: ["627353", "585983"],
+        logo: "Tejarat",
+
+        SHEBA_prefix: "018",
     },
 ];

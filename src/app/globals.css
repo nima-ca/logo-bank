@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Full width for large screens */
+@media (min-width: 1440px) {
+    .main-container {
+        max-width: 1440px; /* The original max-width */
+    }
+}

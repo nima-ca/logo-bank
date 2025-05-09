@@ -185,17 +185,9 @@ export const BANKS_INFO: BankInfo[] = [
         SHEBA_prefix: "079",
     },
     {
-        title: { fa: "موسسه اعتباری ثامن", en: "Samen" },
-        prefix: ["621986"],
-        logo: "Samen",
-
-        SHEBA_prefix: "056",
-    },
-    {
         title: { fa: "بانک صنعت و معدن", en: "Sanat Madan Bank" },
         prefix: ["627961"],
         logo: "Sanat-Madan",
-
         SHEBA_prefix: "011",
     },
     {

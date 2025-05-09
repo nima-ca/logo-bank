@@ -1,5 +1,6 @@
 import { BankInfo } from "@src/constants/bankInfo.constants";
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 import DownloadIcon from "../icons/download";
 
@@ -17,6 +18,7 @@ const BankCard: FC<BankCardProps> = ({ info }) => {
                     alt={info.title.fa}
                     width={60}
                     height={60}
+                    priority
                 />
                 <div className="flex flex-col gap-1">
                     <p>{info.title.fa}</p>
@@ -24,9 +26,15 @@ const BankCard: FC<BankCardProps> = ({ info }) => {
                 </div>
             </div>
 
-            <a href={imageSrc} download={`${info.logo}.svg`}>
+            <Link
+                href={imageSrc}
+                target="_blank"
+                rel="noopener noreferrer"
+                download={`${info.logo}.svg`}
+                aria-label={`دانلود لوگو ${info.title.fa}`}
+            >
                 <DownloadIcon className="w-5 h-5" />
-            </a>
+            </Link>
         </div>
     );
 };

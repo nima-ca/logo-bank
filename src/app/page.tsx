@@ -10,7 +10,13 @@ export default function Home() {
         <div className="flex flex-col main-container py-5 px-4">
             <div className="flex items-center justify-between mb-10">
                 <Link href="/" className="flex items-center gap-2">
-                    <Image src="/logo.svg" alt="لوگو" width={50} height={50} />
+                    <Image
+                        src="/images/logo/logo.svg"
+                        alt="لوگو"
+                        width={50}
+                        height={50}
+                        priority
+                    />
                     <p className="font-bold text-lg text-[#336699]">
                         لوگو بانک
                     </p>
@@ -19,6 +25,7 @@ export default function Home() {
                     href={"https://github.com/nima-ca/logo-bank"}
                     rel="noopener noreferrer"
                     target="_blank"
+                    aria-label="گیت هاب پروژه"
                 >
                     <GithubIcon className="w-6 h-6" />
                 </Link>
@@ -30,9 +37,12 @@ export default function Home() {
                         لیست لوگوی بانک ها
                     </h1>
                     <Link
-                        href="/images/banks.zip"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         download={"banks.zip"}
+                        href="/images/banks.zip"
                         className="flex items-center gap-2"
+                        aria-label="دانلود همه لوگو ها"
                     >
                         <p>دانلود همه</p>
                         <DownloadIcon className="w-5 h-5" />

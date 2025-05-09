@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://logobanks.ir/og-image.png",
+                url: "https://logobanks.ir/images/og/og-image.png",
                 width: 1200,
                 height: 630,
                 alt: "لوگو بانک - دریافت لوگوی بانک‌های ایرانی",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         title: "لوگو بانک | دریافت سریع لوگوی بانک‌های ایران",
         description:
             "سریع‌ترین راه برای دریافت لوگوی بانک‌های ایرانی. مناسب برای طراحان و برنامه‌نویسان.",
-        images: ["https://logobanks.ir/og-image.png"],
+        images: ["https://logobanks.ir/images/og/og-image.png"],
         site: "@logobank_ir",
     },
 };
